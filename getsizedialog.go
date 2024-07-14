@@ -41,5 +41,5 @@ func (s *Size) getSizeDialog(win fyne.Window) {
 		win)
 
 	getSizeDialog.Show()
-
+	win.Canvas().Focus(heighth)
 }
